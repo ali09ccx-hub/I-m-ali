@@ -51,7 +51,7 @@ fun HomeScreen(
     LaunchedEffect(Unit) {
         while (true) {
             val timeFmt = SimpleDateFormat("HH:mm", Locale.getDefault())
-            val dateFmt = SimpleDateFormat("EEEE, d MMMM", Locale("ar"))
+            val dateFmt = SimpleDateFormat("EEEE, d MMMM", Locale.forLanguageTag("ar"))
             val now = Date()
             currentTime = timeFmt.format(now)
             currentDate = dateFmt.format(now)
@@ -212,7 +212,7 @@ fun HomeScreen(
                         DockIcon(icon = Icons.Default.Call, bg = Color(0xFF10B981), tag = "dock_phone") {
                             onLaunchApp(VirtualAppId.PHONE)
                         }
-                        DockIcon(icon = Icons.Default.Chat, bg = Color(0xFF38BDF8), tag = "dock_msg") {
+                        DockIcon(icon = Icons.Default.Sms, bg = Color(0xFF38BDF8), tag = "dock_msg") {
                             onLaunchApp(VirtualAppId.MESSAGES)
                         }
                         DockIcon(icon = Icons.Default.Language, bg = Color(0xFF6366F1), tag = "dock_browser") {
@@ -301,7 +301,7 @@ fun VirtualAppIconItem(
                 Icon(
                     imageVector = when (app.id) {
                         VirtualAppId.PHONE -> Icons.Default.Call
-                        VirtualAppId.MESSAGES -> Icons.Default.Chat
+                        VirtualAppId.MESSAGES -> Icons.Default.Sms
                         VirtualAppId.NOTES -> Icons.Default.NoteAlt
                         VirtualAppId.CAMERA -> Icons.Default.CameraAlt
                         VirtualAppId.GALLERY -> Icons.Default.PhotoLibrary

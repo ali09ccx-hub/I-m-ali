@@ -35,7 +35,7 @@ fun LockScreen(
     LaunchedEffect(Unit) {
         while (true) {
             val timeFmt = SimpleDateFormat("HH:mm", Locale.getDefault())
-            val dateFmt = SimpleDateFormat("EEEE, d MMMM", Locale("ar"))
+            val dateFmt = SimpleDateFormat("EEEE, d MMMM", Locale.forLanguageTag("ar"))
             val now = Date()
             currentTime = timeFmt.format(now)
             currentDate = dateFmt.format(now)

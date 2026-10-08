@@ -9,6 +9,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.*
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -145,7 +146,7 @@ fun DialerApp(
                     },
                     navigationIcon = {
                         IconButton(onClick = onCloseApp) {
-                            Icon(Icons.Default.ArrowBack, contentDescription = "Back", tint = Color.White)
+                            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = Color.White)
                         }
                     },
                     actions = {
@@ -285,7 +286,7 @@ fun DialerApp(
                                     modifier = Modifier.size(56.dp)
                                 ) {
                                     Icon(
-                                        imageVector = Icons.Default.Backspace,
+                                        imageVector = Icons.AutoMirrored.Filled.Backspace,
                                         contentDescription = "Backspace",
                                         tint = Color(0xFF94A3B8)
                                     )
@@ -416,7 +417,7 @@ fun DialerApp(
                                             verticalAlignment = Alignment.CenterVertically
                                         ) {
                                             Icon(
-                                                imageVector = if (log.type == "INCOMING") Icons.Default.CallReceived else Icons.Default.CallMade,
+                                                imageVector = if (log.type == "INCOMING") Icons.AutoMirrored.Filled.CallReceived else Icons.AutoMirrored.Filled.CallMade,
                                                 contentDescription = "Call Type",
                                                 tint = if (log.type == "INCOMING") Color(0xFF10B981) else Color(0xFF38BDF8),
                                                 modifier = Modifier.size(28.dp)
