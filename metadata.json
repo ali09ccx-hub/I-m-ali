@@ -1,0 +1,6 @@
+{
+  "name": "Virtual Phone",
+  "description": "A powerful full-featured virtual phone launcher and OS simulation with persistent storage and realistic phone apps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

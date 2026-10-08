@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="phone_chassis_bg">#FF090D16</color>
+    <color name="phone_screen_bg">#FF0F172A</color>
+    <color name="phone_bezel_dark">#FF05070C</color>
+    <color name="primary_accent">#FF6366F1</color>
+    <color name="secondary_accent">#FF06B6D4</color>
+    <color name="status_bar_tint">#CC0B0F19</color>
+    <color name="nav_bar_tint">#EE0B0F19</color>
+    <color name="app_surface">#FF1E293B</color>
+    <color name="app_surface_variant">#FF334155</color>
+    <color name="app_text_primary">#FFF8FAFC</color>
+    <color name="app_text_secondary">#FF94A3B8</color>
+    <color name="accent_green">#FF10B981</color>
+    <color name="accent_yellow">#FFF59E0B</color>
+    <color name="accent_red">#FFEF4444</color>
+    <color name="accent_blue">#FF3B82F6</color>
+    <color name="accent_purple">#FF8B5CF6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

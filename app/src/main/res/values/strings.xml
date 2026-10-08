@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Virtual Phone</string>
+    <string name="launcher_name">الهاتف الوهمي</string>
+    <string name="search_hint">بحث في الهاتف والويب...</string>
+    <string name="system_storage">ذاكرة الهاتف الوهمي</string>
+    <string name="status_connected">متصل بالشبكة</string>
+    <string name="phone_battery">البطارية: 98%</string>
+    <string name="camera_app_title">الكاميرا الوهمية</string>
+    <string name="notes_app_title">الملاحظات المحفوظة</string>
+    <string name="contacts_app_title">جهات الاتصال</string>
+    <string name="messages_app_title">الرسائل (SMS)</string>
+    <string name="settings_app_title">إعدادات النظام</string>
+    <string name="calc_app_title">الحاسبة</string>
+    <string name="browser_app_title">المتصفح الذكي</string>
+    <string name="files_app_title">مدير الملفات</string>
+    <string name="gallery_app_title">معرض الصور</string>
+    <string name="clock_app_title">الساعة والمؤقت</string>
+    <string name="terminal_app_title">موجه الأوامر (Terminal)</string>
+    <string name="save_success">تم حفظ البيانات بنجاح</string>
+    <string name="empty_notes">لا توجد ملاحظات محفوظة حتى الآن</string>
+</resources>
